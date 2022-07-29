@@ -1,0 +1,14 @@
+#blog-main {
+    width: 100%;
+    height: auto;
+
+}
+
+#header-blog {
+    width: 100%;
+    background-image: url("../Images/notebook.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+

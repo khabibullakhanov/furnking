@@ -1,0 +1,11 @@
+#notification-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#notfounded {
+    width: 100%;
+    height: 80vh;
+}

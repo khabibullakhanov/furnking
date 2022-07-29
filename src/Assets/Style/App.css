@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Rubik:ital,wght@0,300;0,500;1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik";
+}
+
+.App {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+#scrollTop {
+  border-radius: 50%;
+  width: 60px;
+  height: 55px;
+}
+
+#header-sticiy {
+  position: sticky;
+  top: -53px;
+  background: #ffffff;
+  z-index: 9999999;
+}

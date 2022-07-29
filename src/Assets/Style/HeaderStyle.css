@@ -1,0 +1,261 @@
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+#navbar {
+    margin-top: 20px;
+
+}
+
+#navbar-inside {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #F7F8FA;
+}
+
+#navbar-dropdown {
+    display: flex;
+    align-items: center;
+    background-color: #7AC751;
+    padding: 25px 30px;
+    gap: 1rem;
+    color: white;
+}
+
+#navbar-dropdown:hover #navabr-dropdown-items a {
+    transform: scale(1.1);
+}
+
+
+#navbar-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-left: 70px;
+}
+
+#navbar-items li a {
+    color: #555555;
+}
+
+#navbar-dropdown-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #F7F8FA;
+    width: 18.5%;
+}
+
+#navbar-dropdown-items:focus {
+    border: 2px solid red;
+}
+
+#navbar-dropdown-items :last-child {
+    border-bottom: none;
+}
+
+#navbar-dropdown-items a {
+    border-bottom: 1px solid #E3E3E3;
+    width: 235px;
+    padding: 10px 0 10px 25px;
+    color: #555555;
+}
+
+#navbar-dropdown-items a:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+
+#navbar-bottom {
+    display: flex;
+    height: auto;
+    width: 100%;
+    margin-top: -20px;
+}
+
+#header-corousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F1FAFF;
+    padding: 20px 50px;
+    gap: 3rem;
+    width: 81%;
+    margin: 10px 0 0 10px;
+}
+
+#header-corousel-text > span {
+    color: #7AC751;
+    font-size: 22px;
+    font-weight: 5;
+}
+
+#header-corousel-text > h2 {
+    font-size: 40px;
+    width: auto;
+}
+
+#header-corousel-text {
+    padding-left: 20px;
+}
+
+#header-corousel-text > p {
+    color: #515151;
+    font-size: 27px;
+    padding: 20px 0;
+}
+
+#header-corousel-text > button {
+    font-size: 16px;
+    background-color: #7AC751;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+}
+
+#header-corousel-text > button:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+
+#header-corousel-text > button > a {
+    color: white;
+}
+
+#header-armchairs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+#header-armchairs img {
+    width: 70px;
+}
+
+#armChair1 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    padding: 0 25px 10px 25px;
+    transition: all 0.5s ease-in-out;
+    text-align:center;
+}
+
+#armChair1:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+
+#armChair1 > span {
+    color: #7AC751;
+    font-size: 15px;
+}
+
+#armChair1 > p {
+    color: black;
+    font-size: 10px;
+    padding-top: 3px;
+}
+
+#armChair2 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    padding: 0 25px 10px 25px;
+    text-align:center;
+}
+
+#armChair2:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+
+
+#armChair2 > span {
+    color: #7AC751;
+    font-size: 15px;
+}
+
+#armChair2 > p {
+    color: black;
+    font-size: 10px;
+    padding-top: 3px;
+}
+
+#armChair3 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    padding: 5px 25px 10px 25px;
+    text-align:center;
+}
+
+#armChair3:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+
+#armChair3 > span {
+    color: #7AC751;
+    font-size: 15px;
+}
+
+#armChair3 > p {
+    color: black;
+    font-size: 10px;
+    padding-top: 3px;
+}
+
+#armChair3 img {
+    width: 55px;
+}
+
+#products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    gap: 2rem;
+    margin-left: 50px;
+    justify-content: center;
+}
+
+#products h1 {
+    color: #555555;
+    font-weight: 400;
+}
+
+#products-navbar {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    margin: 40px 0;
+}
+
+#products-navbar a {
+    color: #C2C2C2;
+    font-size: 25px;
+    font-weight: 5;
+}
+
+@media screen and (max-width: 1410px) {
+    #navbar-top {
+        flex-wrap: wrap;
+    }
+  }
